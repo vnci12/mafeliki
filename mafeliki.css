@@ -38,3 +38,44 @@ article{
     padding: 10px;
     text-align: center;
 }
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td{
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+}
+
+table{
+    background: rgb(209, 179, 10);
+}
+
+.lien-facebook{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.lien-facebook a{
+    background: #1877F2;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+footer{
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 50px;
+}
+
+section{
+    background: rgb(211, 124, 19);
+}
