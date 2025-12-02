@@ -90,3 +90,24 @@ section{
 th{
     background: rgb(10, 176, 63);
 }
+form{
+    background: rgb(211, 124, 19);
+    text-align: center;
+    font-size: 23px;
+}
+
+input{
+    padding: 5px;
+    margin: 7px;
+    border: 5px;
+    border-radius: 5px;
+}
+
+textarea{
+    padding: 50px;
+    margin: 12px;
+}
+
+iframe{
+    text-align: center;
+}
