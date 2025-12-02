@@ -6,7 +6,7 @@ header{
     padding: 20px;
     text-align: center;
     color: darkgreen;
-    font-size: 26px;
+    font-size: 40px;
 }
 
 section{
@@ -20,6 +20,8 @@ nav{
     flex: 1;
     background: rgb(12, 220, 78);
     padding: 25px;
+    text-align: center;
+    text-decoration: none;
 }
 img{
     padding: 15px;
@@ -78,4 +80,8 @@ footer{
 
 section{
     background: rgb(211, 124, 19);
+}
+
+th{
+    background: rgb(10, 176, 63);
 }
