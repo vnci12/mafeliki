@@ -15,9 +15,10 @@
 
         <nav>
             <ul>
-                <li><a href="">Fruits</a></li>
-                <li><a href="">Légumes</a></li>
-                <li><a href="#producteurs">Producteurs</a></li>
+                <li id="fruits"><a href="#fruits">Fruits</a></li>
+                <li id="legumes"><a href="#legumes">Légumes</a></li>
+                <li id="producteur"><a href="#producteurs">producteursProducteurs</a></li>
+                <li id="commantaire"><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
 
@@ -26,7 +27,7 @@
     <section>
 
         <article>
-            <h2>Fruits</h2>
+            <h2 id="fruits">Fruits</h2>
             <p>
                 Le fruit de la passion est le fruit de certaines plantes à fleurs du genre Passiflora dont en particulier Passiflora edulis (la grenadille).
             </p>
@@ -39,7 +40,7 @@
         </article>
 
         <article>
-            <h2>Légumes</h2>
+            <h2 id="legumes">Légumes</h2>
             <p>
                 La tomate (Solanum lycopersicum L.) est une espèce de plantes herbacées du genre Solanum de la famille des Solanacées, originaire du Mexique. Le terme désigne aussi son fruit charnu : la tomate se consomme comme un légume-fruit, crue ou cuite ; elle est devenue un élément incontournable de la gastronomie dans de nombreux pays, particulièrement dans les Amériques.
             </p>
@@ -55,7 +56,7 @@
     <!--section producteur-->
     <section>
 
-        <h2>
+        <h2 id="producteurs">
             Producteurs de Fruits et Légumes à Mayotte
         </h2>
     
@@ -102,13 +103,78 @@
                 </tr>
         </table>
 
+        <br>
     </section>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Ri-pRnBahcA?si=hiphRj1kV4uHA7ff" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="520" height="445" src="https://www.youtube.com/embed/pSwucL9cRXQ">
+    </iframe>
 
     <div class="lien-facebook">
     <a href="https://www.facebook.com/TropicalConceptMayotte/?locale=fr_FR" target="_blank">
         visiter la page
     </a>
     </div>
+
+    <br><br>
+
+    <form  id="Contact">
+        <br>
+        <h3>Formulaire de contact</h3>
+        <div>
+            <label>Nom</label>
+            <input type="nom" name="nom" id="nom">
+
+            <label>Prénom</label>
+            <input type="prenom" name="prenom" id="prenom">
+        </div>
+
+        <br><br>
+
+        <div>
+            <label>Email</label>
+            <input type="mail" name="email" id="email">
+
+            <label>Numéro de telephone</label>
+            <input type="number" name="numeroTelephone" inert="numeroTelephone">
+        </div>
+
+        <br><br>
+
+        <div>
+            <label>village</label>
+            <input type="text" name="village" id="village">
+        </div>
+        
+        <br><br>
+        <div>
+            <label>Liste des Fruits et Légumes souhaiter:</label>
+
+            <input type="checkbox" id="fruitsPassion" name="fruitsPassion">
+            <label for="fruit"> Fruits de la passion</label>
+      
+            <input type="checkbox" id="tomate" name="tomate">
+            <label for="legume">Tomates</label>
+      
+            <input type="checkbox" id="carotte" name="carotte">
+            <label for="legume">Carottes</label>
+
+            <input type="checkbox" id="fraise" name="fraise">
+            <label for="fruit">Fraises</label>
+        </div>
+
+        <br>
+
+        <label href="#commantaire">Commantaires:</label>
+        <p></p>
+        <textarea name="Commantaire" id="Commantaire" rows="5"></textarea>
+
+        <br>
+
+        <input type="submit">
+
+    </form>
+
 
     <footer>
         <p>2025 Maféliki - Fruits et légumes</p>
