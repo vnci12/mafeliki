@@ -1,5 +1,13 @@
 *{
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background: #07d4a8, #fc5c7d;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #134288, #5ae25a;
 }
 
 p{
@@ -7,26 +15,31 @@ p{
 }
 
 header{
-    background-color: chartreuse;
+    background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
     padding: 20px;
     text-align: center;
-    color: darkgreen;
+    color: #fff;
     font-size: 40px;
-}
+    letter-spacing: 2px;
+    box-shadow: 0 4px 12px rgba(106,17,203,0.15);
+    margin-bottom: 30px;
 
-section{
     display:  -webkit-flex;
     display: flex;
-}
+    background: #f7f7fa;
+    padding: 20px;
+    border-radius: 10px;
 
-nav{
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    background: rgb(12, 220, 78);
+    background: linear-gradient(135deg, #fc5c7d 0%, #6a82fb 100%);
     padding: 25px;
     text-align: center;
     text-decoration: none;
+    color: #fff;
+    border-radius: 10px 0 0 10px;
+    box-shadow: 0 2px 8px rgba(252,92,125,0.08);
 }
 img{
     padding: 15px;
@@ -41,73 +54,76 @@ nav ul{
 article{
     -webkit-flex: 3;
     -ms-flex: 3;
-    background: rgb(211, 124, 19);
-    padding: 10px;
+    background: linear-gradient(90deg, #cf5d5d 0%, #07d4a8 100%);
+    padding: 24px 10px;
     text-align: center;
-}
-
-table{
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-table th, table td{
-    border: 1px solid #555;
-    padding: 10px;
-    text-align: center;
-}
-
-table{
-    background: rgb(209, 179, 10);
+    border-radius: 0 10px 10px 0;
+    box-shadow: 0 2px 8px rgba(106,17,203,0.08);
 }
 
 .lien-facebook{
     text-align: center;
     margin: 40px 0;
+
+
+    background: linear-gradient(90deg, #1877F2 0%, #07d4a8 100%);
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(24,119,242,0.10);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+tr {
+    background: linear-gradient(90deg, #0f5dc4 0%, #11cb39 100%);
+    text-align: center;
+    font-size: 23px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+    padding: 20px;
+
+
+    padding: 8px 12px;
+    margin: 7px;
+    border: 1px solid #6a11cb;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
-.lien-facebook a{
-    background: #1877F2;
-    color: white;
-    padding: 12px 20px;
-    border-radius: 5px;
-    text-decoration: none;
+th, td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+input[type="text"], input[type="email"], textarea{
+
+    padding: 18px;
+    margin: 12px;
+    border-radius: 8px;
+    border: 1px solid #6a11cb;
+    font-size: 18px;
 }
 
 footer{
-    background: #222;
-    color: white;
+    background: #6a11cb;
+    color: #fff;
     text-align: center;
     padding: 15px;
-    margin-top: 50px;
+    margin-top: 30px;
+    box-shadow: 0 -4px 12px rgba(106,17,203,0.15);
 }
 
-section{
-    background: rgb(211, 124, 19);
-}
-
-th{
-    background: rgb(10, 176, 63);
-}
-form{
-    background: rgb(211, 124, 19);
+.formulaire{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(106,17,203,0.08);
+    margin-top: 30px;
     text-align: center;
-    font-size: 23px;
-}
-
-input{
-    padding: 5px;
-    margin: 7px;
-    border: 5px;
-    border-radius: 5px;
-}
-
-textarea{
-    padding: 50px;
-    margin: 12px;
-}
-
-iframe{
-    text-align: center;
+    background:#fc5c7d 0%, #6a82fb 100%;
 }
